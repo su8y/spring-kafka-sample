@@ -1,0 +1,3 @@
+rootProject.name = 'kafka-template'
+include('kafka-producer')
+include('kafka-consumer')
