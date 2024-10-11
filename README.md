@@ -86,3 +86,10 @@
    --bootstrap-server localhost:9091 \
    --partitions 1 --replication-factor 1
    ```
+
+
+## Test
+```text
+GET: localhost:8080/test/HelloKafka
+OUTPUT: TestConsumer.listenerConsumerRecord(topic = test-events-1, partition = 0, leaderEpoch = 0, offset = 6, CreateTime = 1728612851378, serialized key size = -1, serialized value size = 11, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = HelloKafka5)
+```
