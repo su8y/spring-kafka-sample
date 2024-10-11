@@ -12,6 +12,6 @@ public class TestProducer {
 	}
 
 	public void create(String event) {
-		kafkaTemplate.send("topic", event);
+		kafkaTemplate.send("test-events-1", event);
 	}
 }
